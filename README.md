@@ -24,7 +24,7 @@ To start your project, you should find and replace the following symbols project
 ## Requirements
 
 ### any platform
-* VS Code
+* VS Code [download](https://code.visualstudio.com/Download)
 * yarn (run `npm i yarn -g`)
 
 ### for iOS development
