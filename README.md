@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./public/assets/tropic.png" alt="header" width="450"/></a>
+  <img src="./public/assets/tropic.png" alt="header" width="300"/></a>
   <br>
   Typescript ROllup Phaser in Capacitor
   <br>
