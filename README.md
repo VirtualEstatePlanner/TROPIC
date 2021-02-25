@@ -8,7 +8,7 @@
 
 ## Find and replace these values in the entire project
 
-Since you most likely found this template on GitHub, it assumes you are a GitHub User.  If you are using a different version control system for your application then you will need to change some URLs in your `package.json` file.
+Since you most likely found this template on GitHub, it assumes you are a GitHub User. If you are using a different version control system for your application then you will need to change some URLs in your `package.json` file.
 
 To start your project, you should find and replace the following symbols project-wide in VS Code by hitting `crtl-shift-f` _(or `command-shift-f` on macOS)_:
 
@@ -24,28 +24,31 @@ To start your project, you should find and replace the following symbols project
 ## Requirements
 
 ### any platform
-* VS Code [download](https://code.visualstudio.com/Download)
-* yarn (run `npm i yarn -g`)
+
+- VS Code [download](https://code.visualstudio.com/Download)
+- yarn (run `npm i yarn -g`)
 
 ### for iOS development
-* XCode (Available in the macOS App Store)
-* cocoapods (run `sudo gem install cocoapods`)
-* an iOS developer account, if you want to publish to the App Store
+
+- XCode (Available in the macOS App Store)
+- cocoapods (run `sudo gem install cocoapods`)
+- an iOS developer account, if you want to publish to the App Store
 
 ### for Android development
-* Android Studio [download](https://developer.android.com/studio/)
-* a developer account, if you want to publish to the App Store
+
+- Android Studio [download](https://developer.android.com/studio/)
+- a developer account, if you want to publish to the App Store
 
 This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/), [Rollup](https://rollupjs.org) with ⚡️ lightning fast HMR through [Vite](https://vitejs.dev/).
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `yarn` | Install project dependencies |
-| `yarn clean` | Rebuild everything from scratch except your source code |
-| `yarn dev` | Builds project and open web server, watching for changes |
-| `yarn build` | Builds code bundle with production settings  |
+| Command      | Description                                                    |
+| ------------ | -------------------------------------------------------------- |
+| `yarn`       | Install project dependencies                                   |
+| `yarn clean` | Rebuild everything from scratch except your source code        |
+| `yarn dev`   | Builds project and open web server, watching for changes       |
+| `yarn build` | Builds code bundle with production settings                    |
 | `yarn serve` | Run a web server to serve built code bundle from `dist` folder |
 
 There's a few other scripts in package.json if you aren't trying to build for every platform.
@@ -57,4 +60,4 @@ server by running `yarn dev` and navigate to http://localhost:3000.
 
 ## Production
 
-After running `yarn build`, the files you need for production will be on the `dist` folder. To test code on your `dist` folder, run `yarn serve` and navigate to http://localhost:5000.  To build and publish your Android or iOS applications, you will need to complete the build process from XCode or Android Studio.
+After running `yarn build`, the files you need for production will be on the `dist` folder. To test code on your `dist` folder, run `yarn serve` and navigate to http://localhost:5000. To build and publish your Android or iOS applications, you will need to complete the build process from XCode or Android Studio.
