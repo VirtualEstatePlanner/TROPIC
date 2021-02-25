@@ -30,7 +30,7 @@ To start your project, you should find and replace the following symbols project
 
 ### for iOS development
 
-- XCode (Available in the macOS App Store)
+- XCode [macOS App Store](https://apps.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 - cocoapods (run `sudo gem install cocoapods`)
 - an iOS developer account, if you want to publish to the App Store
 
