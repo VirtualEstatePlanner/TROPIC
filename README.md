@@ -63,4 +63,4 @@ After cloning the repo, run `yarn redev` from your project directory. Then, you 
 
 ## Production
 
-After running `yarn build`, the files you need for production will be on the `dist` folder. To test code on your `dist` folder, run `yarn serve` and navigate to http://localhost:5000. To build and publish your Android or iOS applications, you will need to complete the build process from XCode or Android Studio.
+After running `yarn build`, the files you need for production will be on the `dist` folder. To test code on your `dist` folder, run `yarn serve` and navigate to http://localhost:5000. To build and publish your Android or iOS applications, you will need to run `yarn cap-prepare` and then either `yarn cap-a`, or `yarn cap-i`.  You can complete the build process from XCode or Android Studio.
