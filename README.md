@@ -59,7 +59,7 @@ This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeSc
 
 ## Development
 
-After cloning the repo, run `yarn redev` from your project directory. Then, you can start the local development and navigate to http://localhost:3000.
+After cloning the repo, run `yarn redev` from your project directory. (Only the first time or if you wnt to reinstall your dependencies - `yarn dev` does the real work.) Then, you can start the local development and navigate to http://localhost:3000.
 
 ## Production
 
