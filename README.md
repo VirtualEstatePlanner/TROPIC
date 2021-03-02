@@ -43,15 +43,19 @@ This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeSc
 
 ## Available Commands
 
-| Command      | Description                                                    |
-| ------------ | -------------------------------------------------------------- |
-| `yarn`       | Install project dependencies                                   |
-| `yarn clean` | Rebuild everything from scratch except your source code        |
-| `yarn dev`   | Builds project and open web server, watching for changes       |
-| `yarn build` | Builds code bundle with production settings                    |
-| `yarn serve` | Run a web server to serve built code bundle from `dist` folder |
-
-There's a few other scripts in package.json if you aren't trying to build for every platform.
+| Command            | Description                                                    |
+| ------------------ | -------------------------------------------------------------- |
+| `yarn`             | Install project dependencies                                   |
+| `yarn clean`       | Rebuild everything from scratch except your source code        |
+| `yarn build`       | Builds code bundle with production settings                    |
+| `yarn dev`         | Builds project and open web server, watching for changes       |
+| `yarn redev`       | clean, install, build, and dev                                 |
+| `yarn serve`       | Run a web server to serve built code bundle from `dist` folder |
+| `yarn cap-prepare` | add android and ios support to capacitor                       |
+| `yarn cap-a`       | sync Android build and open Android Studio simulator           |
+| `yarn cap-i`       | sync iOS build and open XCode iOS simulator                    |
+| `yarn build-a`     | build and sync for Android                                     |
+| `yarn build-i`     | build and sync for iOS                                         |
 
 ## Development
 
