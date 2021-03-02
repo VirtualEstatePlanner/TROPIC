@@ -22,7 +22,7 @@
     "cap-i": "cap sync ios && cap open ios",
     "clean": "rm -rf .gradle android dist ios node_modules yarn.lock && mkdir dist && cp index.html dist && yarn && yarn cap-prepare",
     "build": "vite build",
-    "dev": "vite",
+    "dev": "tsc -w & vite",
     "redev": "yarn clean && yarn build && yarn dev",
     "serve": "vite preview",
     "build-a": "yarn build && yarn cap-a",
